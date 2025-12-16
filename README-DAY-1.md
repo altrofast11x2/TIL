@@ -10,14 +10,14 @@
 
 2. **파일 관리**
 
-   * `touch index.html`로 새 파일을 만들 수 있다는 것을 배웠습니다.
-   * `cat index.html`과 `less index.html`로 파일 내용을 확인할 수 있음을 실습했습니다.
+   * `touch 파일명`으로 새 파일을 만들 수 있다는 것을 배웠습니다.
+   * `cat 파일명`과 `less index.html`로 파일 내용을 확인할 수 있음을 실습했습니다.
    * 필요 없는 폴더를 삭제할 때는 `rm -rf 폴더명`을 사용할 수 있다는 것도 배웠습니다.
    * 설치한 패키지를 삭제할 때는 `pkg uninstall 패키지명` 명령어를 사용할 수 있음을 배웠습니다.
 
 3. **파일 편집 (nano)**
 
-   * `nano index.html`로 파일을 편집할 수 있으며, `CTRL + O`로 저장하고 `CTRL + X`로 종료하는 방법을 실습했습니다.
+   * `nano 파일명`으로 파일을 편집할 수 있으며, `CTRL + O`로 저장하고 `CTRL + X`로 종료하는 방법을 실습했습니다.
 
 4. **웹 서버 실행 (Python)**
 
@@ -26,7 +26,7 @@
 
 5. **패키지 관리**
 
-   * `pkg update && pkg upgrade`로 Termux 패키지를 최신 상태로 유지할 수 있음을 배웠습니다.
+   * `pkg update && pkg upgrade`으로 Termux 패키지를 최신 상태로 유지할 수 있음을 배웠습니다.
    * `pkg install git`으로 Git을 설치하고, `git --version`으로 설치 여부를 확인했습니다.
    * `pkg uninstall 패키지명`으로 설치된 패키지를 삭제할 수 있습니다.
 
